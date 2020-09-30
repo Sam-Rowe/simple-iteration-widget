@@ -1,0 +1,52 @@
+{
+    "manifestVersion": 1,
+    "id": "vsts-extensions-myExtensions",
+    "version": "1.0.1",
+    "name": "My First Set of Widgets",
+    "description": "Samples containing different widgets extending dashboards",
+    "publisher": "SamuelRowe",
+    "categories": ["Azure Boards"],
+    "targets": [
+      {
+        "id": "Microsoft.VisualStudio.Services"
+      }
+    ],
+    "icons": {
+      "default": "img/logo.png"
+    },
+    "contributions": [
+      {
+        "id": "IterationWidget",
+        "type": "ms.vss-dashboards-web.widget",
+        "targets": ["ms.vss-dashboards-web.widget-catalog"],
+        "properties": {
+          "name": "Iteration Widget",
+          "description": "My first widget",
+          "catalogIconUrl": "img/CatalogIcon.png",
+          "previewImageUrl": "img/preview.png",
+          "uri": "iteration.html",
+          "supportedSizes": [
+            {
+              "rowSpan": 1,
+              "columnSpan": 1
+            }
+          ],
+          "supportedScopes": ["project_team"]
+        }
+      }
+    ],
+    "files": [
+      {
+        "path": "iteration.html",
+        "addressable": true
+      },
+      {
+        "path": "sdk/scripts",
+        "addressable": true
+      },
+      {
+        "path": "img",
+        "addressable": true
+      }
+    ]
+  } 
