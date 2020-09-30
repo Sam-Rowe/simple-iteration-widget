@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "iteration-widget",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "name": "Iteration widget",
     "description": "Widget to show iteration details",
     "publisher": "SamuelRowe",
