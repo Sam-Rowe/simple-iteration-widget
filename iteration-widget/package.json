@@ -1,0 +1,23 @@
+{
+  "name": "simple-iteration-widget",
+  "version": "1.0.0",
+  "description": "A simple widget for Azure DevOps that shows the iteration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sam-Rowe/simple-iteration-widget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sam-Rowe/simple-iteration-widget/issues"
+  },
+  "homepage": "https://github.com/Sam-Rowe/simple-iteration-widget#readme",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  }
+}
